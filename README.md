@@ -9,7 +9,6 @@ Database: Stores processed data in a local SQLite database (production_data.db).
 REST API: Provides an API endpoint to query the annual production data by API well number.
 
 Requirements::
-
 Python 3.x
 Required Python libraries:
 pandas
@@ -18,7 +17,6 @@ Flask
 xlrd (for reading .xls Excel files)
 
 Features::
-
 Data Processing::
 The process_data.py script reads the quarterly production data from an Excel file.
 It sums the quarterly values to calculate annual totals for each well's oil, gas, and brine production.
